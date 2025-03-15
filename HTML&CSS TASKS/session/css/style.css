@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: orange;
+}
+
+#back {
+  background-color: yellow;
+  height: 400px;
+
+  background-image: url("../images/facebook.png");
+
+  /* by deafult: repeat 
+    no-repeat, repeat-y, repeat-x */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  /* by default: top left
+  top righ,t bottom left, bottom right*/
+  background-position: center;
+
+  /* property shorthand */
+  background: yellow url("../images/facebook.png") no-repeat center fixed;
+}
+
+#style-border {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  color: wheat;
+
+  border-color: orange;
+  border-width: 2px;
+  border-style: solid;
+
+  /* property shorthand */
+  border: 2px solid palevioletred;
+
+  border-bottom: 2px dashed purple;
+
+  border-radius: 5px;
+
+  border-radius: 50%;
+}
+
+#style-margin {
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+
+  border: 2px solid orange;
+
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+  /* property shorthand */
+  margin: 10px;
+
+  /* top/bottom left/right  */
+  margin: 10px 20px;
+
+  /* top right bottom left */
+  margin: 10px 15px 20px 8px;
+}
+
+#style-padding {
+  width: 100px;
+  height: 100px;
+  background-color: teal;
+  border: 2px solid orange;
+
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  /* property shorthand */
+  padding: 10px;
+
+  /* top/bottom left/right  */
+  padding: 10px 20px;
+
+  /* top right bottom left */
+  padding: 10px 15px 20px 8px;
+}
